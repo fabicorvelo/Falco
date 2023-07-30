@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,14 +15,14 @@
   <script src="js/jquery.indySliceSlider.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-<body >   
+<body>   
   <nav>
     <ul>
       <li>
         <a href="#">Home</a>
       </li>
       <li>
-        <a href="#">About</a>
+        <a href="#about">About</a>
       </li>
       <li>
         <a href="#">Services</a>
@@ -33,7 +34,6 @@
   </nav>
 
   <section class="carousel">
-
     <button class="slider-button slider-button-prev" data-slide-direction="prev">❮</button>
     <button class="slider-button slider-button-next" data-slide-direction="next">❯</button>
     <ul class="slides">
@@ -53,45 +53,41 @@
       <div></div>
     </div>
   </section>
-<br><br>
-<section>
+<br><br><br>
+
   <!-- About Section -->
-<div class="w3-container" style="padding:128px 16px" id="about">
-  <h3 class="w3-center">ABOUT THE COMPANY</h3>
-  <p class="w3-center w3-large">Key features of our company</p>
-  <div class="w3-row-padding w3-center" style="margin-top:64px">
-    <div class="w3-quarter">
-      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
-      <p class="w3-large">Responsive</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-    </div>
-    <div class="w3-quarter">
-      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Passion</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-    </div>
-    <div class="w3-quarter">
-      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Design</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-    </div>
-    <div class="w3-quarter">
-      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Support</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+<section>
+  <div class="w3-container" style="padding:128px 16px" id="about">
+    <h3 class="w3-center" >ABOUT THE COMPANY</h3>
+    <p class="w3-center w3-large">Key features of our company</p>
+    <div class="w3-row-padding w3-center" style="margin-top:64px">
+      <div class="w3-quarter">
+        <i> <img src="icons7.png" id="img_responsive"  onmouseleave="changeImageLeave1()" onmouseover="changeImageOver1()"></i>
+        <p class="w3-large">Responsive</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      </div>
+      <div class="w3-quarter">
+        <i> <img src="icons8.png" id="img_heart"  onmouseleave="changeImageLeave()" onmouseover="changeImageOver()"></i>
+        <p class="w3-large">Passion</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      </div>
+      <div class="w3-quarter">
+        <i> <img src="icons9.png" id="img_design"  onmouseleave="changeImageLeave2()" onmouseover="changeImageOver2()"></i>
+        <p class="w3-large">Design</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      </div>
+      <div class="w3-quarter">
+        <i> <img src="icons10.png" id="img_suporte"  onmouseleave="changeImageLeave3()" onmouseover="changeImageOver3()"></i>
+        <p class="w3-large">Support</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      </div>
     </div>
   </div>
-</div>
 </section>
  
+<script src="main.js"></script>
+<script src="about.js"></script>
 
 
-
-
-
-  <script src="main.js"></script>
-
-  </body>
-
-  
+</body>
 </html>

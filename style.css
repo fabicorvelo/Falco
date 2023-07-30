@@ -40,6 +40,7 @@ body{
     background-image: linear-gradient(to right top, #050207 0%, #172b38 100%);
 
 }
+
 *,
 *::after,
 *::before {
@@ -147,7 +148,7 @@ li.slide[data-active-slide] {
 }
 
 .slides-circles > div[data-active-slide] {
-  background-color: rgba(191, 232, 173, 0.799);
+  background-color: #bfe8adcc;
 }
 
 .mudar-cor{
@@ -162,3 +163,4 @@ li.slide[data-active-slide] {
   background-color: #FFFAFA;
 }
 
+    

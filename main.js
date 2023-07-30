@@ -27,3 +27,11 @@ const changeSlide = (offset) => {
 };
 
 setInterval(changeSlide.bind(null, 1), 6000);
+
+
+
+
+
+
+
+
